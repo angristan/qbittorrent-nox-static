@@ -966,11 +966,11 @@ while (("${#}")); do
 			echo
 			echo -e "${tb}${tu}Here is the help description for this flag:${cend}"
 			echo
-			echo -e " Use a provided libtorrent tag when cloning from github."
+			echo -e " Use a provided qbittorrent tag when cloning from github."
 			echo
 			echo -e " ${cy}You can use this flag with this help command to see the value if called before the help option.${cend}"
 			echo
-			echo -e " ${cg}${qb_working_dir_short}/$(basename -- "$0")${cend}${clb} -qt ${clc}release-4.3.0.1${cend} ${clb}-h-qt${cend}"
+			echo -e " ${cg}${qb_working_dir_short}/$(basename -- "$0")${cend}${clb} -qt ${clc}release-4.3.1${cend} ${clb}-h-qt${cend}"
 			#
 			if [[ ! "${qbittorrent_github_tag}" =~ (error_tag|error_22) ]]; then
 				echo
@@ -979,7 +979,7 @@ while (("${#}")); do
 			echo
 			echo -e " ${td}This flag must be provided with arguments.${cend}"
 			echo
-			echo -e " ${clb}-lt${cend} ${clc}release-4.3.0.1${cend}"
+			echo -e " ${clb}-qt${cend} ${clc}release-4.3.1${cend}"
 			echo
 			exit
 			;;
